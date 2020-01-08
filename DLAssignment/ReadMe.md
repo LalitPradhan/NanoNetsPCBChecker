@@ -50,6 +50,6 @@ Outputs for running demo:
 
 True output should have been:
 ```
-  Component 53 missing
+  Component 53 Missing
 ```
 The remaining defects printed are due to the explanation in Remarks for improvement section.
