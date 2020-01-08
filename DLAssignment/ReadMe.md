@@ -5,6 +5,7 @@ Dependencies:
 - torchvision
 - opencv
 - pycocotools
+- xmltodict
 
 For training, we need to prepare data. This is a one time thisng for a given machine with a partical dataset.
 ```
