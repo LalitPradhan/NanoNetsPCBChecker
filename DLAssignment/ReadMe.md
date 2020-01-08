@@ -9,12 +9,12 @@ Dependencies:
 
 For training, we need to prepare data. This is a one time thisng for a given machine with a partical dataset.
 ```
-$python3 PCBchecker.py prepData
+python3 PCBchecker.py prepData
 ```
 
 To train:
 ```
-$python3 PCBchecker.py train
+python3 PCBchecker.py train
 ```
 
 To Test on one image:
@@ -24,7 +24,9 @@ In the 'model/' folder download these two pretrained models:
 [***Classifier***](https://1drv.ms/u/s!Au_917wA6i4miiy_A0103y14E_Ka?e=8a0lPD)
 Finally run the following and pass the path of image to be tested:
 ```
-$python3 PCBchecker.py demo <imagePath>
+python3 PCBchecker.py demo <imagePath>
 ```
 
+Note: The DLAssignment/ folder has just two images and excel with number_to_dict.json file as a sample. Replace this with actual data in the same format. Model was trained on a 1080Ti.
 
+Remarks for improvement: The two networks are separate as of now, One could use a siamese style network to compare or make an auxiliary task to find defects as a Multi Task learning scenario to the object detector with a weighted loss for the auxiliary task.
