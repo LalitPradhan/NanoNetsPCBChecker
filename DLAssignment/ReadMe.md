@@ -49,5 +49,7 @@ Outputs for running demo:
 ![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/SampleOutPut.png)
 
 True output should have been:
+```
   Component 53 missing
+```
 The remaining defects printed are due to the explanation in Remarks for improvement section.
