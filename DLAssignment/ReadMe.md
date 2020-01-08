@@ -30,3 +30,9 @@ python3 PCBchecker.py demo <imagePath>
 Note: The DLAssignment/ folder has just two images and excel with number_to_dict.json file as a sample. Replace this with actual data in the same format. Model was trained on a 1080Ti.
 
 Remarks for improvement: The two networks are separate as of now, One could use a siamese style network to compare or make an auxiliary task to find defects as a Multi Task learning scenario to the object detector with a weighted loss for the auxiliary task.
+
+Outputs for Detector training:
+![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/detector.png)
+
+Outputs for Classifier training:
+![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/Classifier.png)
