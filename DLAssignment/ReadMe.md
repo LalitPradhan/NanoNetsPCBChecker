@@ -39,3 +39,8 @@ Outputs for Detector training:
 
 Outputs for Classifier training:
 ![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/Classifier.png)
+
+Outputs for running demo:
+![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/SampleOutputTerminal.png)
+
+![alt text](https://github.com/LalitPradhan/NanoNetsPCBChecker/blob/master/DLAssignment/SampleOutPut.png)
