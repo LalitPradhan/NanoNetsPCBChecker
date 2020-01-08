@@ -52,4 +52,4 @@ True output should have been:
 ```
   Component 53 Missing
 ```
-The remaining defects printed are due to the explanation in Remarks for improvement section.
+The remaining defects printed are due to the explanation in Remarks for improvement section. The missing component is right above component 36 & 37.
