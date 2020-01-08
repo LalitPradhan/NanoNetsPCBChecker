@@ -28,7 +28,9 @@ Finally run the following and pass the path of image to be tested:
 python3 PCBchecker.py demo <imagePath>
 ```
 
-Note: The DLAssignment/ folder has just two images and excel with number_to_dict.json file as a sample. Replace this with actual data in the same format. Model was trained on a 1080Ti.
+Note: 
+- The DLAssignment/ folder has just two images and excel with number_to_dict.json file as a sample. Replace this with actual data in the same format. Model was trained on a 1080Ti.
+- The model is extendible to different PCB data. Run prepare data and then train as mentioned above. If the fomat is same no human intervention should be required.
 
 Remarks for improvement: 
 - The two networks are separate as of now, One could use a siamese style network to compare or make an auxiliary task to find defects as a Multi Task learning scenario to the object detector with a weighted loss for the auxiliary task.
